@@ -6,6 +6,32 @@
 	<version>0.1.0-SNAPSHOT</version>
 	<name>WhiteJackServer</name>
 	<description>Server Implementation of WhiteJackAPI</description>
+	<build>
+		<defaultGoal>clean install</defaultGoal>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.1</version>
+				<configuration>
+					<archive>
+						<manifestEntries>
+							<Main-Class>com.whitejack.api</Main-Class>
+							<Implementation-Title>WhiteJackAPI</Implementation-Title>
+							<Implementation-Version>${describe}</Implementation-Version>
+							<Implementation-Vendor>WhiteJack Team</Implementation-Vendor>
+							<Specification-Title>WhiteJack</Specification-Title>
+							<Specification-Version>${api.version}</Specification-Version>
+							<Specification-Vendor>WhiteJack Team</Specification-Vendor>
+							<Sealed>true</Sealed>
+							<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+							<addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+						</manifestEntries>
+					</archive>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 	<dependencies>
 		<dependency>
 			<groupId>log4j</groupId>
