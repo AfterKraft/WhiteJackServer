@@ -1,4 +1,4 @@
-package com.whitejack.gofish;
+package com.whitejack.games.gofish;
 
 import com.whitejack.api.*;
 import java.util.Scanner;

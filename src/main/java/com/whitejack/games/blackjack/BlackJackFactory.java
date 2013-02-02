@@ -1,4 +1,4 @@
-package com.whitejack.blackjack;
+package com.whitejack.games.blackjack;
 
 import java.util.List;
 
