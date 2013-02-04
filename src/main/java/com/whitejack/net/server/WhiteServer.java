@@ -27,7 +27,6 @@ public class WhiteServer<G extends Game, GT extends GameTable<G>, GF extends Gam
 	private static final Logger log = Logger.getLogger("WhiteJack");
 	private JTextArea jta = new JTextArea();
 	private GameLobby<G, GT, GF> lobby;
-
 	private static Server server;
 
 	public static void main(String[] args) {
