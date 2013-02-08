@@ -1,13 +1,13 @@
-package com.whitejack.games.blackjack;
+package co.whitejack.games.blackjack;
 
 import java.util.Scanner;
 
-import com.whitejack.api.Dealer;
-import com.whitejack.api.DeckArrayManager;
-import com.whitejack.api.Game;
-import com.whitejack.api.Player;
-import com.whitejack.api.User;
-import com.whitejack.api.applets.BetHandler;
+import co.whitejack.api.Dealer;
+import co.whitejack.api.DeckArrayManager;
+import co.whitejack.api.Game;
+import co.whitejack.api.Player;
+import co.whitejack.api.User;
+import co.whitejack.api.applets.BetHandler;
 
 import org.apache.log4j.Logger;
 

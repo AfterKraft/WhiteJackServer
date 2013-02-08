@@ -1,4 +1,4 @@
-package com.whitejack.net.server;
+package co.whitejack.net.server;
 
 import java.awt.BorderLayout;
 //import java.io.DataInputStream;
@@ -16,17 +16,17 @@ import javax.swing.JTextArea;
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
 
-import com.whitejack.api.Game;
-import com.whitejack.api.GameFactory;
-import com.whitejack.api.GameTable;
-import com.whitejack.api.net.server.Server;
+import co.whitejack.api.Game;
+import co.whitejack.api.GameFactory;
+import co.whitejack.api.GameTable;
+import co.whitejack.api.net.server.Server;
 
 public class WhiteServer<G extends Game, GT extends GameTable<G>, GF extends GameFactory<G, GT>> extends Server {
 
 //	private final boolean onlineMode = true;
 	private static final Logger log = Logger.getLogger("WhiteJack");
 	private JTextArea jta = new JTextArea();
-	private GameLobby<G, GT, GF> lobby;
+	private GameLobby lobby;
 	private static Server server;
 
 	public static void main(String[] args) {

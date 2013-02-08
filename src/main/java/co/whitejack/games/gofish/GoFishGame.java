@@ -1,9 +1,10 @@
-package com.whitejack.games.gofish;
+package co.whitejack.games.gofish;
 
-import com.whitejack.api.*;
+import co.whitejack.api.*;
+
 import java.util.Scanner;
 
-public class GoFish extends Game {
+public class GoFishGame extends Game {
 
 	public Dealer dealer;
 	public Deck deck;
@@ -11,7 +12,7 @@ public class GoFish extends Game {
 	public boolean stand,bust;
 	public boolean GameOver;
 
-	public GoFish(Dealer dealer, Deck deck, User user) {
+	public GoFishGame(Dealer dealer, Deck deck, User user) {
 		this.dealer = dealer;
 		this.deck = deck;
 		this.user = user;

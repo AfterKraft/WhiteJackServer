@@ -1,16 +1,16 @@
-package com.whitejack.games.blackjack;
+package co.whitejack.games.blackjack;
 
 import java.util.List;
 import java.util.Scanner;
 
 import org.apache.log4j.Logger;
 
-import com.whitejack.api.Card;
-import com.whitejack.api.Dealer;
-import com.whitejack.api.Deck;
-import com.whitejack.api.GameTable;
-import com.whitejack.api.Hand;
-import com.whitejack.api.User;
+import co.whitejack.api.Card;
+import co.whitejack.api.Dealer;
+import co.whitejack.api.Deck;
+import co.whitejack.api.GameTable;
+import co.whitejack.api.Hand;
+import co.whitejack.api.User;
 
 public class BlackJackGameTable extends GameTable<BlackJackGame> {
 

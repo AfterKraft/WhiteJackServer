@@ -1,10 +1,10 @@
-package com.whitejack.games.blackjack;
+package co.whitejack.games.blackjack;
 
 import java.util.List;
 
-import com.whitejack.api.Dealer;
-import com.whitejack.api.GameFactory;
-import com.whitejack.api.User;
+import co.whitejack.api.Dealer;
+import co.whitejack.api.GameFactory;
+import co.whitejack.api.User;
 
 /**
  * BlackJackFactory
