@@ -49,7 +49,7 @@ public class GameLobby {
 		gameMakers.add(gofishGameMaker);
 		gameMakers.add(pokerGameMaker);
 		addTables(gameMakers);
-		setupTables(mapOfTables);
+//		setupTables(mapOfTables);
 	}
 
 	/**
