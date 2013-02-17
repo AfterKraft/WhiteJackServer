@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.whitejack</groupId>
+	<groupId>co.whitejack</groupId>
 	<artifactId>WhiteJackServer</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 	<name>WhiteJackServer</name>
@@ -16,7 +16,7 @@
 				<configuration>
 					<archive>
 						<manifestEntries>
-							<Main-Class>com.whitejack.api</Main-Class>
+							<Main-Class>co.whitejack.api</Main-Class>
 							<Implementation-Title>WhiteJackAPI</Implementation-Title>
 							<Implementation-Version>${describe}</Implementation-Version>
 							<Implementation-Vendor>WhiteJack Team</Implementation-Vendor>
@@ -43,8 +43,8 @@
 						<configuration>
 							<relocations>
 								<relocation>
-									<pattern>com.whitejack.api</pattern>
-									<shadedPattern>com.whitejack.api</shadedPattern>
+									<pattern>co.whitejack.api</pattern>
+									<shadedPattern>co.whitejack.api</shadedPattern>
 								</relocation>
 							</relocations>
 						</configuration>
@@ -60,7 +60,7 @@
 			<version>1.2.17</version>
 		</dependency>
 		<dependency>
-			<groupId>com.whitejack</groupId>
+			<groupId>co.whitejack</groupId>
 			<artifactId>WhiteJackAPI</artifactId>
 			<version>0.1.0-SNAPSHOT</version>
 		</dependency>
